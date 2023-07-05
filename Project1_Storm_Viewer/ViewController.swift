@@ -16,6 +16,10 @@ class ViewController: UITableViewController {
         title = "Storme View"
         navigationController?.navigationBar.prefersLargeTitles = true
 
+        performSelector(inBackground: #selector(fetchPictures), with: nil)
+    }
+
+    @objc func fetchPictures() {
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
@@ -25,8 +29,9 @@ class ViewController: UITableViewController {
                 //this is a picture to load!
                 pictures.append(item)
             }
-            pictures.sort()
         }
+
+        pictures.sort()
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -40,6 +45,7 @@ class ViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //if is story board. if no look for project 7
         if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
             vc.selectedImage = pictures[indexPath.row]
 
