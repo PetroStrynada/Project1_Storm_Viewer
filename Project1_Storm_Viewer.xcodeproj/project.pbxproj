@@ -24,7 +24,6 @@
 		FB4F45472A2A320A00F53C7E /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4F453D2A2A320A00F53C7E /* nssl0033.jpg */; };
 		FB4F45482A2A320A00F53C7E /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4F453E2A2A320A00F53C7E /* nssl0034.jpg */; };
 		FB4F454A2A2A405700F53C7E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F45492A2A405700F53C7E /* DetailViewController.swift */; };
-		FB5F17C02A7AB38D002914EE /* PicturesShownCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5F17BF2A7AB38D002914EE /* PicturesShownCount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +46,6 @@
 		FB4F453D2A2A320A00F53C7E /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		FB4F453E2A2A320A00F53C7E /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		FB4F45492A2A405700F53C7E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		FB5F17BF2A7AB38D002914EE /* PicturesShownCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesShownCount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 				FB4477DC2A28D20700111A28 /* SceneDelegate.swift */,
 				FB4477DE2A28D20700111A28 /* ViewController.swift */,
 				FB4F45492A2A405700F53C7E /* DetailViewController.swift */,
-				FB5F17BF2A7AB38D002914EE /* PicturesShownCount.swift */,
 				FB4F45342A2A320A00F53C7E /* Content */,
 				FB4477E02A28D20700111A28 /* Main.storyboard */,
 				FB4477E32A28D20900111A28 /* Assets.xcassets */,
@@ -195,7 +192,6 @@
 				FB4477DF2A28D20700111A28 /* ViewController.swift in Sources */,
 				FB4477DB2A28D20700111A28 /* AppDelegate.swift in Sources */,
 				FB4477DD2A28D20700111A28 /* SceneDelegate.swift in Sources */,
-				FB5F17C02A7AB38D002914EE /* PicturesShownCount.swift in Sources */,
 				FB4F454A2A2A405700F53C7E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
